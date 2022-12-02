@@ -60,36 +60,43 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #404040; 
-	
-	
+
+  background-image: url("images/riverfriends.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
 }
 
 .center {
-    width: 800px;
+  width: 800px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
-	text-align: center;
-	border: 4px dashed white;
+  margin: 100px auto;
+ 	background:#30474b92; /*this uses opacity of 75% for the background color*/
+	text-align:center;
+
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
+  margin-bottom: 16px;
+	text-align: center; /*LOGO should be centered*/
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+  font-family: adobe-jenson-pro,serif;
+  font-weight: 700;
+  font-style: normal;
 	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+  margin: 0px auto 10px auto;
+   color: #fff;
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: adobe-jenson-pro,serif;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -98,11 +105,85 @@ h2 {
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: adobe-jenson-pro,serif;
+  font-weight: 300;
+  font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
-    
+
+nav{
+  font-family: supria-sans-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 1.2 em;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+nav li{
+    display: inline;
+
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px;
+  
+}
+
+a{
+    color: #444
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black; /*black hover over NAV*/
+
+}
+
+/*
+
+{margin: 0; padding: 0;}
+
+nav {
+    margin: 50px;
+    text-align: center;
+  }
+  
+ul {
+    overflow: auto;
+    list-style-type: none;
+  }
+  
+  
+  */
+li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+  }
+  /*
+li a:hover {
+    color: #666;
+  }
+  
+li.active a {
+    font-weight: bold;
+    color: #333;
+  }*/
+
+
+
+
+
+
     
 
